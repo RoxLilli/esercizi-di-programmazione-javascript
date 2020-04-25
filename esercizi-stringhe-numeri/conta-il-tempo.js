@@ -12,3 +12,9 @@
 
   http://www.imparareaprogrammare.it
 */
+
+var seconds = 3600;
+var minuts = Math.round(seconds/60);
+var ore = Math.round(minuts/60);
+
+console.log(ore+' ore, '+ minuts + ' minuti, ' + seconds + ' secondi');

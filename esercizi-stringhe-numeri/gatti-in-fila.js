@@ -18,4 +18,18 @@
   http://www.imparareaprogrammare.it
 */
 
-var cats = 44;
+var gatti = 60;
+var gatti_per_fila = 3;
+
+//con operatore modulo %
+var numero_di_file_m = Math.round(gatti/gatti_per_fila);
+var gatti_mancanti_m = Math.round(gatti%gatti_per_fila);
+
+//con operazione aritmetica
+//Math.floor() restituisce il numero intero, arrotondato per difetto
+var numero_di_file_o = Math.round(gatti/gatti_per_fila);
+var gatti_mancanti_o = gatti-(gatti_per_fila*(Math.floor(gatti/gatti_per_fila)));
+
+
+console.log('Modulo: Numero di file ' + numero_di_file_m + ' e gatti mancanti ' + gatti_mancanti_m);
+console.log('Operazione aritmetica: Numero di file ' + numero_di_file_o + ' e gatti mancanti ' + gatti_mancanti_o);

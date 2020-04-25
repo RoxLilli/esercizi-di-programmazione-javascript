@@ -11,3 +11,15 @@
 
   http://www.imparareaprogrammare.it
 */
+
+// var actualYear = 2020;
+var d = new Date();
+var actualYear = d.getFullYear();
+
+var birthDay = 1976;
+
+var age = actualYear - birthDay;
+var oneHundred = 100 - age;
+
+
+console.log('età = '+ age + ', anni mancanti ai 100 = ' + oneHundred);
