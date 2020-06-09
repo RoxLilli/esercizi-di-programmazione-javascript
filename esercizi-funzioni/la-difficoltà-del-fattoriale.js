@@ -12,3 +12,16 @@
 
   http://www.imparareaprogrammare.it
 */
+
+
+function fattoriale(n){
+  var risultato = 1;
+  
+  for (var i=1; i<=n; i++ ){
+    ris = risultato  *= i ;
+  }
+  console.log(ris);
+}
+
+
+fattoriale(5);

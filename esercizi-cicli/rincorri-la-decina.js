@@ -19,3 +19,12 @@
 
   http://www.imparareaprogrammare.it
 */
+
+
+var tab='';
+for(var i=1; i<=100; i++){
+  if (i<10) tab += 0;
+  tab += i + ' | ';
+  if(i % 10 == 0) tab += '\n';
+}
+console.log(tab);

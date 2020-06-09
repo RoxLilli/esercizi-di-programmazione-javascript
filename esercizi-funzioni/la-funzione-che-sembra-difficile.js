@@ -7,6 +7,22 @@
     Input : N = 123456, K = 3
     Output: 4
 
-    
+
   http://www.imparareaprogrammare.it
 */
+
+function difficile(n, k) {
+  var conta = (n.toString().split(''));
+  conta = conta.reverse();
+
+  var lunghezza = conta.length;
+
+  if (k > lunghezza) {
+    console.log(0);
+  }else{
+    console.log(conta[k-1]);
+  }
+
+}
+
+difficile(123456, 1);

@@ -28,3 +28,41 @@
 
   http://www.imparareaprogrammare.it
 */
+
+
+var a = 55;
+var b = 6;
+
+// var operazione = "media";
+var operazione = prompt("Scegli l'operazione fra: addizione, sottrazione, moltiplicazione, divisione, modulo, potenza ");
+var risultato;
+
+switch (operazione) {
+  case "addizione":
+    risultato = a+b;
+  break;
+    case "sottrazione":
+    risultato = a-b;
+  break;
+    case "moltiplicazione":
+    risultato = a*b;
+  break;
+    case "divisione":
+    risultato = a/b;
+  break;
+    case "modulo":
+    risultato = a%b;
+  break;
+    case "potenza":
+    // risultato = Math.pow(a, b);
+    risultato = a**b;
+  break;
+    case "media":
+    risultato = (a+b)/2;
+  break;
+  default:
+    risultato = 'operazine non valida'
+}
+
+
+console.log(risultato);

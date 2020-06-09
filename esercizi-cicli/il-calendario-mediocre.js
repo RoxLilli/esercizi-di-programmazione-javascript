@@ -40,8 +40,48 @@
             Mer 31
 
 
-  Variante:
+  letiante:
   Piuttosto che avere in input il numero dei giorni del mese passa direttamente il mese e calcola tu da quanti giorni è formato.
 
   http://www.imparareaprogrammare.it
 */
+
+
+	// var giorniMese = 31;
+	// var giornoInizio = 0;
+
+  var giorniMese = 31;
+	var giornoInizio = 0;
+
+  var settimana;
+	var j=giornoInizio;
+
+	var risposta = '';
+
+	for(var i=1; i<=giorniMese; i++){
+
+    j=(j % 7);// 0 % 7 è uguale a 0, 1 % 7 è uguale a 1 e così via
+
+    if (j == 0){
+      settimana = "Lun";
+    }else if (j == 1) {
+      settimana = "Mar";
+    }else if (j == 2) {
+      settimana = "Mer";
+    }else if (j == 3) {
+      settimana = "Gio";
+    }else if (j == 4) {
+      settimana = "Ven";
+    }else if (j == 5) {
+      settimana = "Sab";
+    }else if (j == 6) {
+      settimana = "Dom";
+    }else {
+
+    }
+		risposta += settimana + ' ' + i + '\n';
+		j++;// incremento il valore di j
+    // console.log(j);
+	}
+
+  console.log(risposta);

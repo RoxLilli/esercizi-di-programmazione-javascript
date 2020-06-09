@@ -11,3 +11,14 @@
 
   http://www.imparareaprogrammare.it
 */
+
+
+var num = 547;
+var string = (num.toString());//converto in stringa
+var string_length = string.length;//contro la lunghezza della stringa
+
+if (num <= 9999){
+  console.log(string_length);
+}else{
+  console.log('il numero deve essere inferiore a 9999');
+}

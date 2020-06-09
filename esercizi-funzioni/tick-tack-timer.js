@@ -11,6 +11,23 @@
             1
             0
 
-            
+
   http://www.imparareaprogrammare.it
 */
+
+
+function timer(n){
+
+  for (let i=n-1; i>=0; i--){
+    console.log(i);
+  }
+
+  for (let j=0; j<n+j; j++){
+n-=1
+    console.log('n prima = '+n, 'j = '+j, 'n dopo = '+n, 'n+j = '+(n+j));
+  }
+
+
+}
+
+timer(5);

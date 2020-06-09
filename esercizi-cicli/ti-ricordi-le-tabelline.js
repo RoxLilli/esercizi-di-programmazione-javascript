@@ -8,3 +8,14 @@
 
   http://www.imparareaprogrammare.it
 */
+
+var tab ='';
+var num = 5;
+var risultato;
+for (var i = 1; i <= 10; i++) {
+  tab += ' ';
+  risultato = num*i;
+  tab += risultato;
+
+}
+  console.log(tab);

@@ -13,6 +13,18 @@
     Input: n = 2, m = 2
     Output: TRUE
 
-    
+
   http://www.imparareaprogrammare.it
 */
+
+function banale(a,b){
+
+    if (a === b){
+      console.log('true');
+    }else{
+      console.log('false');
+    }
+
+}
+
+banale(5,'5')

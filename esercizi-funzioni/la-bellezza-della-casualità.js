@@ -8,3 +8,11 @@
 
   http://www.imparareaprogrammare.it
 */
+
+
+function random(e){
+  var numrandom = (Math.random() * e);
+  console.log(Math.floor(numrandom));//Math.floor() numero intero
+}
+
+random(15);

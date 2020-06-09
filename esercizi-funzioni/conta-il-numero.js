@@ -9,6 +9,23 @@
     Input: numero = 245
     Output: 3 cifre
 
-    
+
   http://www.imparareaprogrammare.it
 */
+
+
+function contanumero(n){
+  console.log(typeof(n));
+console.log(isNaN(n));
+    if (isNaN(n) === false)  {
+        if (n <= 9999){
+          console.log((n.toString()).length);
+        }else{
+          console.log('il numero non deve superare 9999 ');
+        }
+    }else{
+    console.log('devi inserire un numero');
+  }
+}
+
+contanumero(234);
